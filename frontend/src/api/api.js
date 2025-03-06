@@ -15,6 +15,6 @@ export const analyzeImage = async (image) => {
 
 // New function for chat
 export const sendMessage = async (message) => {
-  const response = await axios.post(`${API_URL}/text/chat`, { message });
+  const response = await axios.post(`${API_URL}/chat/send`, { message });
   return response.data.response;
 };

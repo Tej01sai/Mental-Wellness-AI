@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.17.1",
-    "open": "^10.1.0"
+    "open": "^10.1.0",
+    "openai": "^4.86.2"
   },
   "scripts": {
     "start": "node server.js"
